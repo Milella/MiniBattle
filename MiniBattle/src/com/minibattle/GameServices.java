@@ -13,7 +13,7 @@ public class GameServices {
 		return d20;
 	}
 	
-	public void combat() {
+	public void combat(Character character) {
 		System.out.println("What do you want to do? " + character.getCharacterName());
 		System.out.println("");
 		System.out.println("Enter FIGHT, to FIGHT, Enter RUN to RUN, or enter DEFEND to Defend");

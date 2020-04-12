@@ -23,26 +23,15 @@ public class APPCore {
 		
 		System.out.println("");
 		System.out.println("Welcome Adventurerer " + character.getCharacterName());
-		gameServices.combat();
+		gameServices.combat(character);
 		
 		
-		System.out.println("You have Encountered a MONSTER!");
-		System.out.println("");
-		System.out.println("What do you want to do?");
-		System.out.println("");
-		System.out.println("Enter FIGHT, to FIGHT, Enter RUN to RUN, or enter DEFEND to Defend");
+		
 	}	
 
 		
 		
-		public void combat() {
-			System.out.println(("What do you want to do? " + (character.getCharacterName());
-			System.out.println("What do you want to do? " + character.getCharacterName();
-			System.out.println(("What do you want to do? " +((character.getCharacterName())                           );
-			System.out.println("");
-			System.out.println("Enter FIGHT, to FIGHT, Enter RUN to RUN, or enter DEFEND to Defend");
-			return;
-		}
+		
 
 	
 
